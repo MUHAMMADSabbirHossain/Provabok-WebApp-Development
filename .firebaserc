@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "provabok"
+  },
+  "targets": {
+    "provabok2024": {
+      "hosting": {
+        "client-web-app": [
+          "provabok"
+        ],
+        "provabok2024": [
+          "provabok2024"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
