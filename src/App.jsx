@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,9 +16,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div> */}
-      <h1>Provabok</h1>
+      < h1 className='text-9xl font-bold text-center'> Provabok</h1 >
 
-      <div >
+      <div className='text-center'>
         <a href='https://github.com/provabok/Provabok-WebApp-Development'>Provabok AndroidApp GitHub</a>
         <br />
         <a href='https://github.com/provabok/Provabok-WebApp-Development'>Provabok WebApp GitHub</a>
@@ -26,7 +26,7 @@ function App() {
         <a href='https://github.com/provabok/Provabok-WebApp-Development'>Provabok ServerApp GitHub</a>
       </div>
 
-      <div className="card">
+      <div className="card text-center">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -34,7 +34,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      <p className="read-the-docs text-center">
         Click <strong>GitHub</strong> for contribute Open Source Project with us.
       </p>
     </>
